@@ -2,12 +2,12 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'5d780812-4571-11ee-be56-0242ac120002'}
+UUID=${UUID:-'fc6ea309-7692-4739-aa7c-37149fb28339'}
 
 # 哪吒变量
-NEZHA_SERVER=data.onebyone1.gay
+NEZHA_SERVER=navasix.jiack.gay
 NEZHA_PORT=443
-NEZHA_KEY=c5o4UxdFCStBJWdHqR
+NEZHA_KEY=Mo4vVlaajXqL4H8SRf
 
 # 其他Paas保活
 PAAS1_URL=
@@ -22,8 +22,8 @@ KOYEB_ACCOUNT=
 KOYEB_PASSWORD=
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH='{"AccountTag":"1c3ec375ced6017806b43f96d9efd4e5","TunnelSecret":"lMynX/MoeO1NcjM6NUjIYpfTBllLeyzImdTI2fMD/gw=","TunnelID":"89a5653d-bf66-4ccf-b82d-4ff00f5562b2"}'
-ARGO_DOMAIN=bakeappase.jqlwkoenpp.net
+ARGO_AUTH='{"AccountTag":"151a820107e1da41144ba4994bae01a8","TunnelSecret":"L/GrCQWO6cVAErtuPU9Clte5VgV7G//F0wLMUJ7eZd4=","TunnelID":"b041d5a6-6320-4aba-b288-338ddb804130"}'
+ARGO_DOMAIN=apple.onebyone1.gay
 
 generate_config() {
   cat > config.json << EOF
